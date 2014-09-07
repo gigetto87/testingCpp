@@ -12,7 +12,7 @@ int main()
     cout << "Hello world!" << endl;
 
     cout << (3<<2) << endl;
-	//shifta a sinistra il 3 di due posizioni (00000011 diventa 00001100) cioè 12
+	// shifta a sinistra il 3 di due posizioni (00000011 diventa 00001100) cioè 12
     // quindi è come dire che "Hello World" viene shiftato a sinistra sulla direttiva cout
 
     getchar();
@@ -118,6 +118,7 @@ int main()
 	media = (primo + secondo + terzo) / 3;
 	cout << "Media: " << media << endl;
 
+	// if in sequenza
 	if (primo == media)
 	    cout << "Media uguale al primo numero" << endl;
 	if (secondo == media)
